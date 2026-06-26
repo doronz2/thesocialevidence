@@ -1,4 +1,4 @@
-const baseUrl = "https://thesocialevidence-extension.appspot.com";
+const baseUrl = "https://supportive-determination-production-3681.up.railway.app";
 
 async function save(range) {
   const comment = (prompt("Comment ?") || "").trim();
