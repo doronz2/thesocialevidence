@@ -1,1 +1,4 @@
-runtime: nodejs14
+runtime: nodejs20
+
+env_variables:
+  MONGODB_URL: "mongodb+srv://doronz_db_user:iH4CnZoWk2sPdOiB@cluster0.nllpz8a.mongodb.net/extension-database?retryWrites=true&w=majority&appName=Cluster0"
