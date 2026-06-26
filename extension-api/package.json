@@ -1,0 +1,18 @@
+{
+  "name": "extension-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "clear && time gcloud app deploy --project=thesocialevidence-extension -q && echo http://thesocialevidence-extension.appspot.com"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "mongoose": "^5.12.5"
+  }
+}
