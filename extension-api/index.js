@@ -5,10 +5,7 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
-mongoose.connect(process.env.MONGODB_URL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(process.env.MONGODB_URL);
 
 const QuoteSchema = mongoose.Schema(
   {
